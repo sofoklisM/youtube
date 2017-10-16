@@ -51,11 +51,6 @@ System.register([], function (_export, _context) {
           }
         };
 
-        Welcome.prototype.videoClick = function videoClick(embedCode) {
-          var url = 'https://www.youtube.com/embed/' + embedCode + '?fs=1&amp;enablejsapi=1&amp;version=3&amp;rel=0';
-          $("#support-video").attr('src', url);
-        };
-
         _createClass(Welcome, [{
           key: 'fullName',
           get: function get() {

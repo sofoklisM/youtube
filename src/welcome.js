@@ -25,11 +25,6 @@ export class Welcome {
       return confirm('Are you sure you want to leave?');
     }
   }
-  
-  videoClick(embedCode){
-        var url = 'https://www.youtube.com/embed/' + embedCode + '?fs=1&amp;enablejsapi=1&amp;version=3&amp;rel=0';
-        $("#support-video").attr('src', url);
-   }
 }
 
 export class UpperValueConverter {
